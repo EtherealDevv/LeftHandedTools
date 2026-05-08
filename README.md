@@ -1,30 +1,56 @@
-# ⌨️ LeftHandedTools v1.0
+# LeftHandedTools v1.0 🖱️⌨️
 
-**LeftHandedTools** is a powerful, lightweight utility designed for left-handed gamers to instantly swap mouse buttons and remap all standard keyboard controls. It features a minimalist retro-style interface, structured JSON configurations with UTF-8 support, and advanced stealth mode functionality.
-
-## 🚀 Program Interface
-This is the main interface of the tool in action, showing the current status of mouse inversion, key remapping, and the number of active keys.
-
-![Left Handed Tools Interface](assets/ui.png)
-
-## 🛠️ Initial Configuration Wizard
-When running the tool for the first time, a step-by-step wizard guides you to assign your physical keys to your preferred virtual controls, creating your custom `config.json`.
-
-![Initial Configuration Wizard](assets/initial.png)
-
-## 🎮 How to Use
-1. Download the latest `.exe` from the [Releases](https://github.com/EtherealDevv/LeftHandedTools/releases) page.
-2. **Run as Administrator:** This is required for the tool to intercept and remap keys inside games.
-3. Follow the initial wizard for first-time setup.
-4. **Hotkeys:**
-    * **F1:** Swap Mouse Buttons (Toggle).
-    * **F2:** Window Visibility (Hide/Show).
-    * **F3:** Keyboard Remapping (Toggle).
+A powerful and lightweight utility developed in Python to help left-handed gamers adapt any game to their needs. Easily swap mouse buttons, remap keys, and manage configurations with a retro-style terminal interface.
 
 ---
 
-## 📦 Developer Guide (Building from Source)
-If you want to modify or compile the tool from source, ensure you have Python 3.x and the `keyboard` library installed:
+## 📺 Demo Video
 
-```bash
-pip install keyboard
+[![LeftHandedTools Demo](https://img.youtube.com/vi/lsiCEyzuXtQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=lsiCEyzuXtQ)
+
+*Click the image above to see the tool in action!*
+
+---
+
+## 🚀 Main Features
+
+- **Invert Mouse (F1):** Instantly swap Left and Right mouse buttons.
+- **Stealth Mode (F2):** Hide or show the console window to keep your workspace clean while gaming.
+- **Keys Remap (F3):** Enable or disable custom keyboard remapping for 24 specific keys designed for southpaw setups.
+- **Persistent Config:** All settings are saved in a `config.json` file (UTF-8 support).
+
+---
+
+## 📸 Program Interface
+
+![Interface Screenshot](assets/ui.png)
+
+---
+
+## 📥 Installation & Usage
+
+1. Go to the **[Releases](https://github.com/EtherealDevv/LeftHandedTools/releases)** section.
+2. Download `LeftHandedTools.exe`.
+3. Run the executable (No installation required).
+4. Follow the initial wizard to set up your preferred keys.
+5. Use the Hotkeys (**F1, F2, F3**) to control the tool in real-time.
+
+---
+
+## 🛠️ Built With
+
+- **Python 3.x**
+- **Win32API / PyWin32:** For low-level hardware interaction.
+- **Keyboard Library:** For global hotkey management.
+
+---
+
+## 👤 Author
+
+**Sycho** - *Initial Work & Development* - [EtherealDevv](https://github.com/EtherealDevv)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
