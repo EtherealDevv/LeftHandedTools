@@ -6,7 +6,7 @@ A powerful and lightweight utility developed in Python to help left-handed gamer
 
 ## 📺 Demo Video
 
-[![LeftHandedTools Demo](https://img.youtube.com/vi/lsiCEyzuXtQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=lsiCEyzuXtQ)
+[![LeftHandedTools Demo](assets/thumbnail.png)](https://www.youtube.com/watch?v=lsiCEyzuXtQ)
 
 *Click the image above to see the tool in action!*
 
